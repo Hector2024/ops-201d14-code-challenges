@@ -1,5 +1,5 @@
 #!/bin/bash
-
+echo "Hello world!"
 # Script Name:                  Hello World!
 # Author:                       Hector Cordova
 # Date of latest revision:      10/24/2023
