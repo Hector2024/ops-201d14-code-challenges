@@ -6,9 +6,9 @@
 # Purpose:                      Greetings
 
 # Declaration of variables
-none
+
 # Declaration of functions
-Hello
+
 
 # Main
 
