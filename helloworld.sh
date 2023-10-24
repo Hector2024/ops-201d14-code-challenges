@@ -6,7 +6,7 @@
 # Purpose:                      Greetings
 
 # Declaration of variables
-user: how are you doing? 
+
 # Declaration of functions
 
 
