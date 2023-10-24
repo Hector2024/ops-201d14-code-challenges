@@ -8,7 +8,7 @@
 # Declaration of variables
 none
 # Declaration of functions
-to say hi
+Hello
 
 # Main
 
