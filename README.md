@@ -1,3 +1,5 @@
 # ops-201d14-code-challenges
 
-we shall try this one more time
+I erased that and used the NANO window this time!
+
+show others
