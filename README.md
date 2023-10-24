@@ -3,3 +3,4 @@
 I erased that and used the NANO window this time!
 
 show others
+ one more time for the screen shot
