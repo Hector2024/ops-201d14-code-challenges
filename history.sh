@@ -9,9 +9,17 @@
 
 # Declaration of functions
 
+login_history() {
+    echo "WHO GOES THERE!"
+    last
+    echo "This is the login history"
+ 
+}
 
 # Main
 
-
+login_history
+login_history
+login_history
 
 # End
