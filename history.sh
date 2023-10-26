@@ -11,7 +11,7 @@
 
 login_history() {
     echo "WHO GOES THERE!"
-    last
+    lastlog
     echo "This is the login history"
  
 }
