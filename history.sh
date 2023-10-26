@@ -4,6 +4,7 @@
 # Author:                       Hector Cordova
 # Date of latest revision:      10/25/2023
 # Purpose:                      Show login History
+# Exexcute command:             bash ./history.sh
 
 # Declaration of variables
 
