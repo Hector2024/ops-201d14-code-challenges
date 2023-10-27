@@ -29,6 +29,7 @@ done
 }
 # Main
 
-arrays
+echo "{$chicken[@]}"
 
+echo "{$eggs[@]}"
 # End
