@@ -10,11 +10,12 @@
 
 # Declaration of functions
 
-PID() {
-    
 
  
-}
+if [ $var -ne 123 ]
+then 
+
+echo $var 
 
 # Main
 
