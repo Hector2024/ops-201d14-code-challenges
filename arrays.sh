@@ -9,27 +9,27 @@
 
 # Declaration of variables
 
-chicken=("dir1" "dir2"  "dir3"  "dir4")
+dir=("dir1" "dir2"  "dir3"  "dir4")
 
-eggs=("dir1/file1.txt"  "dir2/file2.txt"  "dir3/file3.txt"  "dir4/file4.txt")
+files=("dir1/file1.txt"  "dir2/file2.txt"  "dir3/file3.txt"  "dir4/file4.txt")
 
 
 # Declaration of functions
 
-arrays() {
+create_directories_and_files() {
 
-for c in "{$chicken[@]}"; do
-mkdir -p "$c"
+for d in "${dir[@]}"; do
+mkdir -p "$d"
 done
 
-for e in "{$eggs[@]}"; do
-touch "$e" 
+for f in "${files[@]}"; do
+touch "$f" 
 done
 
 }
 # Main
 
-echo "{$chicken[@]}"
+create_directories_and_files
 
-echo "{$eggs[@]}"
+
 # End
