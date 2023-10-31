@@ -13,31 +13,21 @@
 
  
 
-# Basic for loop
-names="Stan Kyle Cartman"
-for name in $names
-do
-  echo $name
-done
-
-echo -e "For Loop complete\n"
-
 
 # Basic while loop
 
-while true
-do
-  echo -e "What would you like me to say?\n"
-  read input
-  echo $input
-
-  echo -e "\nTo stop this script at any time, press Ctrl + C\n"
-done
-
+kill_process(){
+    while :
+    do
+      ps aux
+      read -p "enter PID: " process_id
+      kill -9 $process_id
+    done 
+}
 
 
 # Main
 
-
+kill_process
 
 # End
