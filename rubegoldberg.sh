@@ -10,12 +10,6 @@
 
 # Declaration of functions
 
-
- 
-
-
-# Basic while loop
-
 kill_process(){
     while :
     do
